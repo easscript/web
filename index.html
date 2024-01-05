@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAS Wiki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 5px;
+            text-decoration: none;
+            color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        article {
+            float: left;
+            width: 75%;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        /* Added style for the image */
+        #install-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>EAS Wiki</h1>
+    </header>
+
+    <nav>
+        <a href="#section1">Nasıl İndirilir</a>
+        <a href="#section2">Bİr Kod Nasıl Çalıştırılır</a>
+        <a href="#section3">Dosya Nasıl Kayıt Edilir</a>
+        <a href="#section4">Dosya Nasıl Açılır</a>
+        <a href="#section5">Örnek Kodlar</a>
+        <a href="doc.html">Dökümantasyon</a>
+    </nav>
+
+    <article>
+        <section id="section1">
+            <h2>Nasıl İndirilir</h2>
+            <a href="EAS.zip">İndirmek için tıkla</a>
+            <p></p>
+            
+            <!-- Image added below the Install section -->
+            <img src="images/image.jpg" alt="Girl in a jacket" width="800" height="600">
+
+        </section>
+
+        <section id="section2">
+            <h2>Nasıl Çalıştırılır</h2>
+            <p>Kosunuzu yazın ve "Yürüt Kodu" butonuna basın</p>
+            <img src="images/run.jpg" alt="Girl in a jacket" width="800" height="600">
+        </section>
+
+        <section id="section3">
+            <h2>Nasıl Kayıt Edilir</h2>
+            <p>Kodu yazdıktan sonra "Kodu Kaydet" butonuna basın</p>
+            <img src="images/save.jpg" alt="Girl in a jacket" width="800" height="600">
+            <p>Sonrasında dosya adını yazın(sonuna .eas eklemeyi unutmayın) ve save butonuna basın</p>
+            <img src="images/save2.jpg" alt="Girl in a jacket" width="800" height="600">
+        </section>
+        <section id="section4">
+            <h2>Nasıl Dosya Açılır</h2>
+            <p>"Kodu Aç" butonuna bas</p>
+            <img src="images/open.jpg" alt="Girl in a jacket" width="800" height="600">
+            <p>Dosyanı seç ve "open" butonuna bas</p>
+            <img src="images/open2.jpg" alt="Girl in a jacket" width="800" height="600">
+        </section>
+        <section id="section5">
+            <h2>Örnek Kodlar</h2>
+
+
+            <pre class="code">
+
+                /değişken değişken_ismi = değişken değeri	-----> 	   Değişken atar
+
+                /yaz(değişken_ismi)	-----> 	   Atadığınız değişkeni yazdırır
+
+                /al değişken_ismi = text    ----->      Kullanıcıdan veri ister
+
+                yazılacak yazı	-----> 	   yazdığınız yazıyı yazdırır
+
+
+</pre>
+        </section>
+    </article>
+
+</body>
+</html>
